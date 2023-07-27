@@ -14,6 +14,14 @@ let availableQuesions = [];
 let questions = [];
 
 fetch(
+    //(questions.jon)
+    //.then(res =>{
+    //console.log(res)
+    //return res.json();
+    //.then(loadedQuestions =>{
+    //console.log(loadeQuesions)
+    //}
+    //}
     //Open TRIVIA DATABASE
     //https://opentdb.com/api_config.php
     'https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple'
